@@ -98,6 +98,9 @@ SELECT Nome FROM Albuns WHERE IdEstilos LIKE 1
 SELECT * FROM Albuns ORDER BY DataLancamento DESC
 
 
+--Exemplo inner join
+SELECT * FROM Artistas
+INNER JOIN Albuns ON Artistas.IdArtista = Albuns.IdArtista
 
 
 
